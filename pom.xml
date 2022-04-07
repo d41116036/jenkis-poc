@@ -29,6 +29,27 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.3.0</muleVersion>
+						<username>arunphani</username>
+						<password>2175033754Ar</password>
+						<applicationName>jenkins-poc</applicationName>
+						<environment>Sandbox</environment>
+						<objectStoreV2>true</objectStoreV2>
+						<region>us-east-2</region>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<properties>
+							<http.port>8081</http.port>
+							<anypoint.platform.client_id>c38c4c9b494a45079f73780d8faf74a0</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>A5dB0D253aD74e8E9d8Fed6d45F73139</anypoint.platform.client_secret>
+							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com/</anypoint.platform.analytics_base_uri>
+							<anypoint.platform.base_uri>https://anypoint.mulesoft.com/</anypoint.platform.base_uri>
+						</properties>
+					</cloudHubDeployment>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
