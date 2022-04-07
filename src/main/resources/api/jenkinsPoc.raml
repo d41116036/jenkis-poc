@@ -1,0 +1,17 @@
+#%RAML 1.0
+title: New API
+mediaType:
+  - application/json
+protocols:
+  - HTTP
+/getCustomers:
+  get:
+    displayName: getCustomers
+    description: Retrieve available customers
+    responses:
+      "200":
+        body:
+          application/json:
+            type: object
+description: |
+  This is a poc to test jenkins deployment
