@@ -134,7 +134,7 @@ output application/json
 ---
 {
      "firstName": "John",
-     "lastName": "Smith",
+     "lastName": "Smit",
      "age": 25,
      "address":
      {
