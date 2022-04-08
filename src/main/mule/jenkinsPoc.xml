@@ -151,7 +151,7 @@ output application/json
          },
          {
            "type": "fax",
-           "number": "646 555-4567"
+           "number": "646 555-456"
          }
      ]
  }]]></ee:set-payload>
