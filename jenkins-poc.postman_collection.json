@@ -18,7 +18,7 @@
 							"",
 							"pm.test('Check first name in response', function(){",
 							"    const firstName = pm.response.json();",
-							"    pm.expect(firstName.firstName).to.eql('Joh')",
+							"    pm.expect(firstName.firstName).to.eql('John')",
 							"})",
 							"",
 							"pm.test('Check age response', function(){",
