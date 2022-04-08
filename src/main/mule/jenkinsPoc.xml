@@ -133,7 +133,7 @@ output application/json
 output application/json
 ---
 {
-     "firstName": "John",
+     "firstName": "Joh",
      "lastName": "Smit",
      "age": 25,
      "address":
