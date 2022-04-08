@@ -32,10 +32,10 @@
 				<configuration>
 				<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
+						<muleVersion>4.4.0</muleVersion>
 						<username>arunphani</username>
 						<password>2175033754Ar</password>
-						<applicationName>jenkins-poc</applicationName>
+						<applicationName>jenkins-poc-arun-test</applicationName>
 						<environment>Sandbox</environment>
 						<objectStoreV2>true</objectStoreV2>
 						<region>us-east-2</region>
