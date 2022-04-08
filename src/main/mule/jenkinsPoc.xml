@@ -147,7 +147,7 @@ output application/json
      [
          {
            "type": "home",
-           "number": "212 555-1234"
+           "number": "212 555-123"
          },
          {
            "type": "fax",
